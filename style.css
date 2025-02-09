@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+nav{
+    align-items: center;
+}
+h1{
+    background-color: #081b31;
+    color:white;
+    height:5rem;
+    line-height: 5rem;
+}
+.choice{
+    height:10rem;
+    width:10rem;
+    border-radius: 50%;
+}
+img{
+
+    height: 10rem;
+    width:10rem;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.choices{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    gap:7.4rem;
+}
+
+.score-board{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-large;
+    font-weight: 600;
+    gap:5rem;
+    
+}
+#user-score ,#comp-score{
+    font-size:3rem;
+}
+.msg-container{
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#msg{
+    width:fit-content;
+    font-size: xx-large;
+    margin-top: 4rem;
+    padding:1rem;
+    background-color: #081b31;
+    border-radius: 2rem;
+    color: white;
+}
+
+
+@media screen and (max-width:400px) {
+    .choice{
+        height:3rem;
+        width:3rem;
+        border-radius: 50%;
+    }
+    img{
+
+        height: 3rem;
+        width:3rem;
+        object-fit: cover;
+        border-radius: 50%;
+    
+    }
+
+    .choices{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+
+    }
+}
+@media screen and (max-width:600px) {
+    .choice{
+        height:6rem;
+        width:6rem;
+        border-radius: 50%;
+    }
+    img{
+
+        height: 6rem;
+        width:6rem;
+        object-fit: cover;
+        border-radius: 50%;
+    
+    }
+
+    .choices{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+        gap:2rem;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .choice{
+        height:8rem;
+        width:8rem;
+        border-radius: 50%;
+    }
+    img{
+
+        height: 8rem;
+        width:8rem;
+        object-fit: cover;
+        border-radius: 50%;
+    
+    }
+
+    .choices{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8rem;
+        gap:5rem;
+    }
+}
+
+img:hover{
+    cursor: pointer;
+    border:4px solid black;
+}
